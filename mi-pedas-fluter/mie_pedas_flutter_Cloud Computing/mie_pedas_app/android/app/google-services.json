@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "801801890397",
+    "project_id": "joara-delivery-fe720",
+    "storage_bucket": "joara-delivery-fe720.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801801890397:android:bad232c02a496f1d19bbb4",
+        "android_client_info": {
+          "package_name": "com.example.mie_pedas_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8jeeWUKH_EQ79Z7QGJuME4fp9YH72O-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
