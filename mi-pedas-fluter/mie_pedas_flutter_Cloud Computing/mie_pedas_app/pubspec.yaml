@@ -1,0 +1,66 @@
+name: joara_delivery
+description: Joara Delivery - Platform UMKM Kuliner Terpadu
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0   # untuk Windows & macOS
+  path: ^1.8.3
+  path_provider: ^2.1.1
+  
+  # UI
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  smooth_page_indicator: ^1.1.0
+  badges: ^3.1.2
+  
+  # Utils
+  intl: ^0.18.1
+  uuid: ^4.2.1
+  url_launcher: ^6.2.5
+  image_picker: ^1.0.7
+  flutter_local_notifications: ^17.2.2
+  http: ^1.2.0
+  qr_flutter: ^4.1.0   # tampilkan QRIS dari payment-service
+
+  # Firebase (dipakai di main.dart & firebase_options.dart)
+  firebase_core: ^4.11.0
+  cloud_firestore: ^6.6.0
+  firebase_messaging: ^16.4.1
+
+  # Map & Lokasi (untuk location picker checkout)
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  geolocator: ^11.0.0
+
+  # Voice note di chat
+  record: ^6.0.0
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/fonts/
